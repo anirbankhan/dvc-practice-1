@@ -1,8 +1,4 @@
 [core]
-    remote = myremote
-<<<<<<< HEAD
-    autostage = true
-=======
->>>>>>> dc841d0
-['remote "myremote"']
-    url = ../s3
+    remote = newremote
+['remote "newremote"']
+    url = ../new_s3

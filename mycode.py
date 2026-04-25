@@ -11,6 +11,6 @@ df.loc[len(df.index)] = new_row
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
 file_path = os.path.join(data_dir, 'mydata.csv')
-# uploading data into csv file
+# uploading data into csv file fine
 df.to_csv(file_path, index=False)
 print (df)
